@@ -1,0 +1,25 @@
+Structure
+New Client Review Site / Folder    ------------------------------Upload
+	content / folder    -----------------------------------------Included in Master
+		300x250_progressive / folder    -----------------Make
+			animation    --------------------------------Included in Master
+				r001    -------------------------Make
+					_Scripts    -------------Included ^
+				r002    -------------------------Make
+					_Scripts    -------------Included ^
+				r003    -------------------------Make
+					_Scripts    -------------Included ^
+				r004    -------------------------Make
+					_Scripts    -------------Included ^
+			design       --------------------------------Included in Master
+				r001    -------------------------Make
+				r002    -------------------------Make
+				r003    -------------------------Make
+				r004    -------------------------Make
+
+Master - Pull From Folder
+
+Folder "content" contains 1)Job Name sub folder  2) sub folder contains animation folder and design folder. animation folders contain _Scripts. _Scripts contains *expressInstall.swf* and *swfobject_modified.js*
+
+animation folder contains r001 folder + _Scripts sub folder with files
+design folder contains r001

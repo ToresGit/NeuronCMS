@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neuron Syndicate / Client Review</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,700' rel='stylesheet' type='text/css'>
+        <!--cms-disable-->
+        <link type="text/css" href="css/layout.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.address-1.4.min.js?tracker=track"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/page.js"></script>
+        <!--/cms-disable-->
+    </head>
+    <body>
+    	<!--  page wrap  -->
+    	<div id='page-wrap'>
+        	<!--  Initial state of the main content section  -->
+            <!--  AJAX loads logo.html  -->
+            <div id='main-content'></div>
+            <!--  End initial state of the main content section  -->
+            <!--  Sub menu holder  -->
+            <div id="sub-menu-holder" class='sub-menu editable'>
+            	<!--   holder for sub menus   -->
+            </div>
+            <!--  End sub menu holder  -->
+            <!--  Main menu  -->
+            <div id='main-menu' class='editable'>
+            	Main Menu<br>
+                <div class="menu-item repeatable clickable">800 x 600 Banner</div>
+                <div class="menu-item repeatable clickable">728 x 90 Banner</div>
+            </div>
+            <!--  End main menu  -->
+            <!--  Header  -->
+            <div id='header' class="editable">
+            	<img src="images/logo.jpg" width="300" height="70">
+            	<div id="client-info"><span>FOX - BROKEN CITY </span><br>Home Entertainment - Banner Campaign</div>
+            </div>
+            <!--  End header  -->
+        </div>
+        <!--  End page wrap  -->
+        <!--  Add sub menus here  -->
+        <div id="hidden">
+            <div class="editable">
+                <div class="repeatable">
+                    <div class="menu-wrap">
+                    	<div class="repeatable">
+                            <div class="sub-menu-item clickable" data-ns-page="test.html" data-rel="page">Round 1</div>
+                        </div>
+                        <div class="repeatable">
+                            <div class="sub-menu-item clickable" data-ns-page="test3.html" data-rel="lightbox">Facebook</div>
+                        </div>
+                        <div class="hide-sub-menu clickable"><img src="images/close_arrow.jpg"></div>
+                    </div>
+                </div>
+                
+                <div class="repeatable">
+                    <div class="menu-wrap">
+                    	<div class="repeatable">
+                            <div class="sub-menu-item clickable" data-ns-page="test2.html" data-rel="page">html5</div>
+                        </div>
+                        <div class="repeatable">
+                            <div class="sub-menu-item clickable" data-ns-page="test3.html" data-rel="lightbox">Facebook</div>
+                        </div>
+                        <div class="hide-sub-menu clickable"><img src="images/close_arrow.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  End add sub menus here  -->
+        <!--  LightBox  -->
+        <div id="overlay-wrap">
+        	<div id="bg-color"></div>
+            <div id="message">CLICK ANYWHERE TO CLOSE</div>
+            <div id="overlay"></div>
+        </div>
+        <!--  End LightBox  -->
+    </body>
+</html>

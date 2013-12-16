@@ -22,5 +22,3 @@ CMS Timeline: Beta test available on 12/20/2013.<br>
               Matt can test on his end either before or after the Holidays.<br><br>
               
               Get out the Hookah and celebrate!
-              
-              whoop!
